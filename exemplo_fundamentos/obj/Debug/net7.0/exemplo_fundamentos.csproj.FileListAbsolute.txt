@@ -1,0 +1,14 @@
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\bin\Debug\net7.0\exemplo_fundamentos.exe
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\bin\Debug\net7.0\exemplo_fundamentos.deps.json
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\bin\Debug\net7.0\exemplo_fundamentos.runtimeconfig.json
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\bin\Debug\net7.0\exemplo_fundamentos.dll
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\bin\Debug\net7.0\exemplo_fundamentos.pdb
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.AssemblyInfoInputs.cache
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.AssemblyInfo.cs
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.dll
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\refint\exemplo_fundamentos.dll
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.pdb
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\exemplo_fundamentos.genruntimeconfig.cache
+C:\Users\gui_s\OneDrive\Área de Trabalho\codigos\C#\programacao_C#_avanade\exemplo_fundamentos\obj\Debug\net7.0\ref\exemplo_fundamentos.dll

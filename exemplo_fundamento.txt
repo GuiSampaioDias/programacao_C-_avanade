@@ -1,0 +1,20 @@
+depois de instalado o visual studio code no site "https://code.visualstudio.com/download e a versão do .net6 no site "https://dotnet.microsoft.com/en-us/download"
+
+Criei um repositório chamado "programacao_C#_Avanande"
+e clonei ele na minha pasta de codigos C# na minha máquina
+criei uma pasta "exemplo_fundamentos" abri ela no visual studio code em seguida o console apontando para ela e coloquei o seguinte código:
+    C:...\exemplo_fundamentos> dotnet new console
+
+dotnet: sempre que for executar comando do dotnet por padrao para qualquer código deve começar com dotnet
+new: novo
+console: tipo de projeto que criamos. Todos os comandos terão saida no terminal.
+
+com essa linha o projeto .net foi criado
+instalar a extenção C# do visual Studio Code
+com essa extenção o VSC identifica as funcionalidades C# e .net no programacao_C
+
+para testar se o programa vai rodar abra o terminal na mesma pasta e digite 
+    dotnet run
+
+para continuarmaos vamos instalar mais extensões: 1- C# Extensions JosKreativ (facilita a criação de classese interface e outros)
+                                                  2- vscode icons (facilita a navegação e distinção de arquivos)
