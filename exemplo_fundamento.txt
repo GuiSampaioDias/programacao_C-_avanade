@@ -18,3 +18,8 @@ para testar se o programa vai rodar abra o terminal na mesma pasta e digite
 
 para continuarmaos vamos instalar mais extensões: 1- C# Extensions JosKreativ (facilita a criação de classese interface e outros)
                                                   2- vscode icons (facilita a navegação e distinção de arquivos)
+
+O dotnet new console cria duas pastas binarias "bin" e o "obj" alem dessses dois cria uma classe, que é o ponto de entrada do projeto. Tbm o arquivo  .csproj  contem meta dados do projeto diversas configurações de como ele vai se comportar
+
+"bin" e o "obj" não precisam ser guardados, pq quando complilarmos o projeto outra pasta sera gerado. Portanto o conteudo será apagado.Depois de apagar as duas pastas e usarmos o codigo:
+    dotnet build           as duas pastas serão geradas novamente.

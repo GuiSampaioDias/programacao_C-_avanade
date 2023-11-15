@@ -1,0 +1,23 @@
+Aprendendo a Criar uma classe em C#
+
+criei uma pasta aqui no vscode chamada "Models"
+
+cliquei com o botão direito do mouse >New C#> Class
+
+Em seguida uma caixa de texto abre automaticamente na parte superior da tela (é o espaço onde coloquei o nome da classe)
+
+Criamos a classe "Pessoa" com o P maiusculo por convenção colocamos os nomes das classes com a primeira letra em maiúcula.
+
+No arquivo Pessoa.cs dentro da public class digitei:
+    prop  em seguida apertei o tab assim o código será completado automaticamente
+
+Pela classe precisar  de uma string no nome, trocar o int por string e o MyProperty por nome
+
+Criamos mais uma só que para Idade
+
+para o metodo Apresentar criamos 
+    public void Apresentar()
+        {}
+
+Para fazer uso dessa classe Pessoa vamos editar o arquivo Program.cs Toda ação será feita nela
+
