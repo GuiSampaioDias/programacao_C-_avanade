@@ -1,0 +1,60 @@
+Definição da microsofit:
+O operador de atribuição = atruibui o valor do operando do lado direito a uma variável, uma = ou um elemento indexador fornecido pelo operando do lado esquerdo.
+exemplo:
+    int a = 10;
+    int b = 20;
+    int c = a + b;
+
+o int (a,b ou c) é a declaração das variáveis o = é a atribuição no caso o a vale 10  o b vale 20 e o c é a soma de a + b.
+
+Combinando operadores:
+ exemplo :
+    c = c + 5; (declarei a variável c pois ela já foi declarada antes na linha 6) No caso podemos combinar os operadores assim
+    c += 5; (da exatamente o mesmo resultado vantagem é que escreve menos código)
+pode ser feito com os seguintes operadores, +=, -=, /=, *=, %= 
+
+Para comentar as linhas o atalho é contol + K + c
+
+Convertendo tipos de variáveis:
+casting ou cast é uma converção de tipos de variaveis (podemos transformar uma string em int)
+    int a = Convert.ToInt32("5");
+    ou
+    int a = int.Parse("5");   (praticamente todos os tipos podem ser covertido no parse double.Parse(), decimal.Parse(), ...)
+
+Diferença ente Parse e Convert:
+Aprincipal diferença é o tratamento de valores nulos(null)
+    int a = Convert.ToInt32(null); nesse caso o valor de a = 0
+    int a = int.Parse(null); nesse caso dará um erro (Value cannot be null)
+No C# o valor vaziu = null
+Preferencialmente use o Converte poque é muito comum virem valores null, assim o programa não dará erro.
+
+Conversão para string:
+Tudo tem uma função tTO.String(), não utilizamos nem o parse nem o Convert
+    int inteiro = 5;
+    string a = interio.ToString();
+
+Cast Implícito:
+    int a = 5;
+    double b = a;
+Nesse caso da linha 37 e 38 o que acontece é o cast implicito, no caso o int cabe no double que representa um numero muito grande e numero com casas decimais. 
+O mesmo acontece no caso de converter um valor int para long.Pois o Long tem uma capacidade de absorver qualquer valor do int por ser maior.
+No caso inverso o programa dara erro. Pois o programa indica que não consegue converter long pelo int. Assim para converter é necessaria a converção manual:
+    long a = 5;
+    int b = Convert.ToInt32(a);
+Nesse caso só dará um erro se o a for um valor maior ou menor que um int suport.
+
+Ordem dos operadores:
+primeiro () depois *, / e depois o de + e -.
+
+Convertendo de maneira segura:
+    string a = "15-";
+    int b = Convert.ToInt32(a);
+    
+    esse codigo vai dar erro, por isso para se fazer um código com um tratamento para evitar erro utilizaremos o TryParse()
+    
+    string a = "15-";
+    int b = 0;
+    int.TryParse(a, out b); com esse tratamento se nao conseguir converter o a em int o valor será b
+
+
+

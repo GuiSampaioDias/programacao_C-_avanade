@@ -20,4 +20,23 @@ para o metodo Apresentar criamos
         {}
 
 Para fazer uso dessa classe Pessoa vamos editar o arquivo Program.cs Toda ação será feita nela
+    Lá o código é bem simples por isso não expliquei aqui.
 
+
+No caso dos cases em C# só utilizamos os dois primeiros casos:
+CASES             exemplo: 
+camelCase         pessoaFisica
+PascalCase        PessoaFisica
+sanke_case        pessoa_fisica
+spinal-case       pessoa-fisica 
+
+No caso exemplo_fundamentos (nome da pasta), não utilizei o case recomendado
+
+Nome de variáveis propriedade e classes, a recomendação é que nunca abreviamos
+
+Por convençao é recomendadeo que o nome do arquivo obedeça o nome da classe.
+    No caso o arquivo é Pessoa.cs e a classe Pessoa 
+
+O único caracter especial que o programa aceita é o '_'
+
+Lembrando a conveções mudam de acordo com linguagem.

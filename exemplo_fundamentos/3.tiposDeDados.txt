@@ -1,0 +1,40 @@
+tipo       
+string     cadeia de caracteres
+char       caracteres
+bool       valor boolean                               True or False
+int        representa um número inteiro     -2,147,483,648 até 2,147,483,647
+byte           8 bit                                  0 ao 255
+uint          32 bit                              0 ao 4,294,967,295
+short         16 bit                               -32,768 to 32,767
+ulong         64 bit                         0 to 18,446,744,073,709,551,615
+long          64 bit                         -9,223,372,036,854,775,808 to 
+                                                9,223,372,036,854,775,807
+decimal       28-29 digits                (+ or -)1.0 x 10e-28 to 7.9 x 10e28
+double        64 bit          (+/-)5.0 x 10 raise to -324  to (+/-)1.7 x 10 raise to 308
+float         32 bit                -3.4 x 10 raise to 38  to + 3.4 x 10 raise to 38
+
+decimal é usado para valores monetários (mais precisos)
+float represeta possiveis valores com decimal
+duble é mais preciso do que o float
+
+Criando variaveis:
+    string apresentacao  = "Olá, seja bem vindo";
+    int quantidade = 1;
+    double altura = 1.80;
+    decimal preco = 1.80M;
+    bool condicao = true;
+
+    no caso da altura se quiser que apareça com as duas casas decimais é necessário fazer o seguinte
+    Console.WriteLine("Altura: " + altura.ToString("0.00"));
+
+Uma vez que avariavel é declarada(primeira vez que ela aparece no código com o tipo), ela pode ser reutilizada, mas não pode ser declarada novamente.
+
+Date time - representar datas em C#
+    DateTime dataAtual = DateTime.Now;
+    Console.WriteLine(dataAtual); (dd/MM/yyy  HH:mm:ss)
+    Console.WriteLine(dataAtual.ToString("dd/MM/yyyy")); (dia/mês/ano)
+
+Para adicionar dias ao dia dataAtual
+    DateTime dataAtual = DateTime.Now.AddDays(5);
+    Console.WriteLine(dataAtual); (dia+5/mês/ano  hora:minuto:segundo)
+
