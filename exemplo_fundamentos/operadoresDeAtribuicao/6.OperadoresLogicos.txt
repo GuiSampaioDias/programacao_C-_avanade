@@ -1,0 +1,13 @@
+Introdução aos operadores lógicos:
+
+Operador OR (pipe, ||)
+O exemplo usado foi verificar a idade para permitir ou nao a entrada. Se a pessoa tiver mais do que 18 anos || (or) tem autorização do responsável a entrada será permitida. 
+No OR se precisamos de que pelo menos uma das condições sejam verdadeiras para o permitir a entrada.Caso as duas condições sejam falsas a entrada será negada. (exemplo prático no arquivo "Program.cs")
+
+Operador AND (&&):
+Exemplo dado foi uma validação de aprovação na matéria onde para ser aprovada é necessario ter nota maior igual( >= ) a media e possui presença maior igual ( <= ) a minima.
+No caso do and é mais restritivo pois é necessário que as duas condições sejam verdadeiras para a aprovação se uma ou as duas forem falsa será reprovado. (exemplo prático no arquivo "Program.cs)
+
+Operador NOT (!):
+Nesse caso ele inverte o valor booleano
+Exemplo dado se choveu pedalo outro dia se não choveu pergunta-se está tarde, se sim pedalo outro dia se não , vou pedalar. (exemplo prático no arquivo "Program.cs")

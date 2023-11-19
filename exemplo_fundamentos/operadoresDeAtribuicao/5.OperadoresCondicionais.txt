@@ -1,0 +1,56 @@
+Operadores condicionais é uma verificação de uma condição imposta. Como no exemplo uma verificação de uma idade:
+    int idade = 20;
+    if (idade >= 18)
+    {
+        Console.WriteLine("Você já  tem idade igual ou superior para tirar a sua carta de motorista);
+    }
+    else 
+    {
+        Console.WriteLine("Você ainda não tem idade mínima para tirar a sua carta de motorista");
+    }
+No caso desse código no if estamos verificando se a variável idade é maior ou igual ao 18.
+No caso a idade é igual a 20 portando a condição do if é verdadeira e a mensagem da linha 5 será exibida, mas se a idade fosse menor do que 18 anos tornando a condição falsa nesse caso a mensagem do else slinha 9 seria exibida.
+
+Debugando o código: (O teste debug tem de ser feito no arquivo "Program.cs")
+No momento que colocamos para executar o código, ele vai correr até a marca pré definida(com o mause bem ao lado esquerdo do número da linha vai aparecer uma bola vermelha, click nela, mas é importante que seja na linha que queremos que o código pare).
+Depois da bola vermelha selecionada que indica o ponto de verificação, o código acontecerá linha a linha com o seu comando, vamos lá:
+    Click F5 em seguida ".NET5+ and NET Core" (aparecerá na caixa de texto na parte superior da tela, no caso do meu pc eu cliquei no "C#"), em seguida precione F5 novamente (tudo no arquivo "Program.cs")quando o prgrama rodar e parar na linha que marcamos clique em F10 para o passar para linha de baixo do código. Assim podemos analisar o que está acontecendo linha a linha, ajudando a identificar os erros no código. Enquanto estiver depurando uma janela a esquerda se abrirá e na parte superior dela aparecerão todos as variáveis nelas já criadas.
+
+
+If aninhado:
+Varias condições que são possiveis de percorrer. Exemplo:
+    decimal valorDaCompra = 500;
+    decimal valorFinal;
+    if (valorDaCompra < 100)
+    {
+        valorFinal = valorDaCompra;
+    }
+    else if (valor da compra < 500)
+    {
+        valorFinal = valorDaCompra * 0.95    (desconto de 5%)
+    }
+    else
+    {
+        valorFinal = valorDaCompra * 0.90    (descontode 10%)
+    }
+    Console.WriteLine($"Valor Final da venda: R$ {valorFinal}");
+nesse caso acrescentamos o else if() que permite fazer diversas verificações. Deixando o programa mais enxuto.
+
+
+Switch case:
+    string letra = Console.ReadLine();
+
+    switch (letra)
+    {
+        case "a":
+        case "e":
+        case "i":
+        case "o":
+        case "u":
+            Console.WriteLine("Vogal");
+            breack;
+        default:
+            Console.WriteLine("Não é uma vogal");
+            break;
+    }
+Usando o switch primerio ele verifica todos os "case" se a condição não igualar em nehum case ela entra no caso default e mostrará no console "Não é uma vogal", se caso iguale será mostrado no Console "Vogal".Importante resaltar que devemos comocar o breack no fim do case e do default
