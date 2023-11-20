@@ -1,0 +1,17 @@
+Operadores Aritiméticos:
+operador        Descrição                   exemplo
++             realiza soma                  x + y
+-           realiza a subtração             x - y
+*           realiza a multiplicação         x * y
+/           realiza a divisão               x / y
+%           resto da divisão                5 % 2 = 1
+++          Incrementa a variável em 1      x++
+--          Retira 1 do valor da variável   x--
+
+Criar uma nova classe chamada Calculadora:
+clicar com o botão direito a pasta "Model" > New C# > Class> coloquei o nome Calculadora na caixa de texto que abriu na parte superior.
+
+Para calcular a potência podemos usar a a função math que no caso ficou assim:
+    double pot = Math.Pow(4, 3)
+    Console.WriteLine(pot) 
+    //

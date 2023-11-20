@@ -63,3 +63,28 @@ else
 {
     Console.WriteLine("Vou pedalar um ourto dia");
 }
+
+//### Criando a calculadora na prática:
+
+Calculadora calc = new Calculadora();
+ calc.Somar(10,30);
+ calc.Dividir(10, 0);
+ calc.Dividir(10, 2);
+ calc.Multiplicar(20,3);
+ calc.Subtrair(35, 5);
+ calc.Potencia(10, 2);
+ calc.Seno(30);
+ calc.Coseno(30);
+ calc.Tangente(30);
+ calc.RaizQuadrada(9);
+
+ // ### Incremento e Decremento
+ int numero = 10;
+ Console.WriteLine(numero);
+
+ Console.WriteLine("Incrementando o 10");
+ numero++;    // nessa linha será icrementado 1 ao 10 reusultado = 11
+ Console.WriteLine(numero);
+
+ numero--;   // nesse linha será decrementado 1 ao 11 resultado = 10
+ Console.WriteLine(numero); 
