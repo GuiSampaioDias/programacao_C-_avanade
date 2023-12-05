@@ -1,0 +1,22 @@
+Etapa 1
+Propriedades, Métodos e Construtores
+
+Propriedades:
+    Uma propriedade é um membro que oferece um mecanismo flexível para ler, gravar ou calcular o valor de um campo particular.
+    exemplo prático na pasta 'EXEMPLOEXPLORANDO'
+    No console da pasta 'EXEMPLOEXPLORANDO', foi dado o comando <dotnet new console> para criar o novo projeto detro dessa pasta criei mais uma pasta chamada 'Model' cliquei com o botão direito nessa pasta 'new'  'class' e nomeamos Pessoa na caixa de texto que apareceu na parte superior da tela.
+
+    'Dentro do public class Pessoa' digitar 'prop' + Tab que já gera uma propriedade automaticamente.
+A diferença de propriedade de um campo.
+O campo não tem get e set
+A propriedade tem get ou set ou os dois
+
+Métodos:
+    Um método é um bloco de código que contém uma série de instruções.
+    No caso da classe Pessoa que criamos, o Apresentar() é o método.
+
+Criei mais uma classe dentro da pasta 'Models', clicando com o botão direito na pasta 'New C#' > 'Class' nomeamos a classe de 'Curso'.
+
+Construtores:
+    Permitem que o programador defina valores padrão, limite a intanciação e grave códigos flexíveis e fáceis de ler.
+    

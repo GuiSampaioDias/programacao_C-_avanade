@@ -1,0 +1,9 @@
+Laço de repetição:
+É uma execução repetidas vezes que só termina quando a condição é alcançada.
+No arquivo 'Program.cs' um exemplo prático chamado Introdução ao For
+No arquivo 'Program.cs' um exemplo prático chamado Introdução ao While
+A diferença do while para for é que o while é mais simples, só recebe a condição, o for recebe 3 blocos,a declaração da variavel a condição e o incremento. 
+Em compensação precisamos ter mais cuidado com while para não cair no looping infinito.
+No arquivo 'Program.cs' um exemplo prático chamado Do While
+
+Um menuInterativo foi criado no arquivo 'Program.cs'
