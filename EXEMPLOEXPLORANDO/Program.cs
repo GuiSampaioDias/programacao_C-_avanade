@@ -11,9 +11,10 @@ Pessoa p2 = new Pessoa();
 p2.Nome = "Guilherme";
 p2.Sobrenome = "Sampaio Dias";
 
-Pessoa p3 = new Pessoa();
-p3.Nome = "Pedro";
-p3.Sobrenome = "Henrique";
+Pessoa p3 = new Pessoa("Pedro",  "Henrique");
+
+
+Pessoa p4 = new Pessoa(nome: "João", sobrenome: "Martins");
 
 
 Curso cursoDeIngles = new Curso();
@@ -22,5 +23,6 @@ cursoDeIngles.Alunos = new List<Pessoa>();
 
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.AdicionarAluno(p3);
+cursoDeIngles.AdicionarAluno(p4);
 
 cursoDeIngles.ListarAlunos();
