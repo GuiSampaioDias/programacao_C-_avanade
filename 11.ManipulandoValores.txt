@@ -1,0 +1,56 @@
+Concatenação de strings
+    Podemos formatar valores em diversas representações. Essa formatação de valores é conhecida por concatenação ou interpolação.
+
+Na pasta EXEMPLOEXPLORANDO > Modelos vamos refatorar o método ListarAlunos()
+exemplo:
+    string nome = "gui";
+    int idade = 37;
+    Console.WriteLine("Olá! Meu nome é " + nome + " tenho " + idade + " anos.");
+
+Já na interpolação ficaria assim:
+    string nome = "gui";
+    int idade = 37;
+    Console.WriteLine($"Olá! Meu nome é {nome} tenho {idade} anos.");
+É prfefivel utilizar a interpolação de string pq é muito mais clara para trabalhar e concatenar os textos.
+
+No caso de ajustar os valores que serão exibidos podemos manipularmos os valores dentro das chaves no Console.WriteLine();  exe:
+Vamos mostrar a idade mais um e a idade menos um com só uma variavel criada:
+    
+    int idade = 37;
+    Console.WriteLine($"Tenhos {idade} anos, ano passado eu tinha {idade - 1} e ano que vem terei {idade + 1});
+
+Concatenando valores
+exemplo 1:
+    int n1 = 10;
+    int n2 = 20;
+    int resultado = n1 + n2;
+
+    Console.WriteLine(resultado); // resultaldo sairá 30
+
+exemplo 2:
+    string n1 = "10";
+    string n2 = "20";
+
+    string resultado = n1 + n2;
+    Console.WriteLine(resultado); // nesse caso o resultado é igual a "1020"
+
+exemplo 3: 
+    string n1  = "10";
+    int n2 = 10;
+
+    string n3 = n1 + n2;
+    Console.WriteLine(n3); // o resultado concatenará as duas variaveis igualando a 1010
+
+Formatando valores Monetários
+    Exemplo de como funciona a formatação de valores monetários esta no arquivo "Program.cs" na pasta "EXEMPLOEXPLORANDO.csproj"
+Para configurar todo o sistema especifico para umalocalização é necessario importar no começo do programa:
+    using System.Globalization;
+    CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+Formatando o tipo DateTime
+
+    DateTime data = DateTime.Now; 
+
+    Console.WriteLine(data);
+    Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm")); // transformando em uma string podemos formatar a saida da forma que quisermos
+
